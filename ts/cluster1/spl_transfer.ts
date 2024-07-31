@@ -22,7 +22,7 @@ const to = new PublicKey("<receiver address>");
         // Get the token account of the toWallet address, and if it does not exist, create it
 
         // Transfer the new token to the "toTokenAccount" we just created
-    } catch(e) {
+    } catch (e) {
         console.error(`Oops, something went wrong: ${e}`)
     }
 })();
